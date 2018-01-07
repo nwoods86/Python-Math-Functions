@@ -12,7 +12,7 @@ def fac(n):             #calculates the factorial of input N, if negative number
         num +=1
     return(res)
 
-def cos(rad): #Calculates cosine for the Value passed in.
+def cos(rad): #Calculates cosine for the Value passed in.  (Use radians)
     count = 0
     res = 0
     while(count < 25):
@@ -37,7 +37,7 @@ def tan(rad):   #calculates tangent using the cos() and sin() functions. (Use ra
     res = sinX/cosX
     return(res)
 
-def sqrt(num):  #calculates the sqaure root of the inputed number. (Use radians)
+def sqrt(num):  #calculates the sqaure root of the inputed number. 
     return(num**(1/2))
 
 
